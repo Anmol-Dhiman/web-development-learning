@@ -3,25 +3,37 @@
 <title>Payment Form</title>
 
 <body>
-    <h3>User Details.</h3>
-    <p>Name: * <input type="text" name="name" id="name"></p>
-    <p>Mobile no. : * <input type="number" name="number" id="number"></p>
-    <p>Email: * <input type="email" name="email" id="email"></p>
-    <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
-    <p>Pincode: * <input type="number" name="pincode" id="pincode"></p>
-    <hr>
-    <h3>Payment Details.</h3>
-    <p>Card Type: * 
-        <select name="card type" id="card type">
-            <option value="">--Select the card--</option>
-            <option value="visa">Visa</option>
-            <option value="master">Master</option>
-            <option value="rupay">Rupay</option>
-        </select>
-    </p>
-    
+    <form>
+        <h3>User Details.</h3>
+        <p>Name: * <input type="text" name="name" id="name" required></p>
 
-   
+        <fieldset>
+            <legend>Gender</legend>
+            <p>Male <input type="radio" name="gender" id="gender">
+                Female <input type="radio" name="gender" id="gender">
+            </p>
+        </fieldset>
+        <p>Mobile no. : * <input type="number" name="number" id="number" required></p>
+        <p>Email: * <input type="email" name="email" id="email" required></p>
+        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea></p>
+        <p>Pincode: * <input type="number" name="pincode" id="pincode" required></p>
+        <hr>
+        <h3>Payment Details.</h3>
+        <p>Card Type: *
+            <select name="card type" id="card type" required>
+                <option value="">--Select the card--</option>r
+                <option value="visa">Visa</option>
+                <option value="master">Master</option>
+                <option value="rupay">Rupay</option>
+            </select>
+        </p>
+        <p>Card No. : * <input type="number" name="card no" id="card no" required></p>
+        <p>Expiery date: * <input type="date" name="expiery date" id="expiery date" required></p>
+        <p>CVV: * <input type="password" name="cvv" id="cvv" required></p>
+        <input type="submit" value="Pay Now">
+
+
+    </form>
 
 </body>
 
