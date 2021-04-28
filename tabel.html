@@ -1,6 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <title>Table in html</title>
+<style>
+    table,
+    thead,
+    tbody,
+    tr,
+    th,
+    td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    
+    .subcode,
+    th {
+        background-color: rgb(207, 142, 98);
+    }
+    
+    td {
+        background-color: rgb(157, 152, 202);
+    }
+</style>
 
 <body>
     <h1>SherlockVARM</h1>
@@ -12,57 +33,51 @@
                 <th>MEDIUM</th>
                 <th>DATE</th>
             </tr>
-            
+
         </thead>
-      
+
         <tbody>
             <tr>
-                <hr>
-                <td>048</td>
-                <td>PHYSICAL EDUCATION
-                <td>
+                <td class="subcode">048</td>
+                <td>PHYSICAL EDUCATION </td>
                 <td>ENGLISH</td>
                 <td>24.02.2020</td>
             </tr>
             <tr>
-                <td>301</td>
-                <td>ENGLISH CORE
-                <td>
+                <td class="subcode">301</td>
+                <td>ENGLISH CORE</td>
                 <td>ENGLISH</td>
                 <td>27.02.2020</td>
             </tr>
             <tr>
-                <td>042</td>
-                <td>PHYSICS
-                <td>
+                <td class="subcode">042</td>
+                <td>PHYSICS</td>
                 <td>ENGLISH</td>
                 <td>02.03.2020</td>
             </tr>
             <tr>
-                <td>034</td>
-                <td>CHEMISTRY
-                <td>
+                <td class="subcode">034</td>
+                <td>CHEMISTRY</td>
                 <td>ENGLISH</td>
                 <td>07.03.2020</td>
             </tr>
             <tr>
-                <td>043</td>
-                <td>HINDUSTANI MUSIC VOCAL
-                <td>
+                <td class="subcode">043</td>
+                <td>HINDUSTANI MUSIC VOCAL</td>
                 <td>HINDI</td>
                 <td>16.03.2020</td>
             </tr>
             <tr>
-                <td>041</td>
-                <td>MATHEMATICS
-                <td>
+                <td class="subcode">041</td>
+                <td>MATHEMATICS</td>
                 <td>ENGLISH</td>
                 <td>17.03.2020</td>
             </tr>
         </tbody>
         <tfoot>
-            <th colspan="4"> BEST OF LUCK!!</th>
+            <th colspan="4">BEST OF LUCK</th>
         </tfoot>
+
     </table>
 </body>
 
