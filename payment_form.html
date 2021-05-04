@@ -19,7 +19,7 @@
         padding: 80px;
         background-color: rgb(224, 224, 230);
         border-top-right-radius: 1.5rem;
-        border-end-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
     }
     
     #name,
@@ -118,6 +118,11 @@
     a:hover {
         color: rgb(122, 122, 207) !important;
     }
+    
+    #name,
+    #card_name {
+        text-transform: capitalize;
+    }
 </style>
 
 <body>
@@ -150,7 +155,7 @@
                         Payment Form
                     </h1>
                     <h2 class="heading">Personal Information</h2>
-                    <hr style="background-color: gray;">
+                    <hr>
                     <p>Name* : <input type="text" name="name" id="name" required placeholder="Dada Tyagi"></p>
 
                     <fieldset class="fieldset">
@@ -167,7 +172,7 @@
                     </p>
 
                     <h2 class="heading">Card Details.</h2>
-                    <hr style="background-color: gray;">
+                    <hr class="line">
                     <p>Card Holder Name: <input type="text" name="name" id="card_name" placeholder="Sunny Leone"></p>
 
                     <p>Accepted Cards*</p>
