@@ -5,17 +5,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Respoxsiveness</title>
+    <title>responsiveness</title>
     <style>
-        h1 {
-            border: 2px solid black;
+        body {
+            background-color: rgb(63, 62, 62);
+        }
+        
+        img {
+            width: 20%;
+            clip-path: circle(30% at 50% 50%);
+        }
+        
+        h1,
+        h2 {
+            text-align: center;
+            color: white;
+        }
+        
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        iframe {
+            width: 33%;
+        }
+        
+        @media all and (min-width:1080px)and (max-width:2160px) {
+            div iframe {
+                content: url();
+            }
         }
     </style>
 </head>
 
 <body>
 
-    <h1>jai shri ram </h1>
+    <p> <img src="https://wallpaperaccess.com/full/3500925.jpg" alt="logo">
+        <h1>aur bhi ladlae kae haal h </h1>
+        <h2>lae gana sunn lae</h2>
+    </p>
+    <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/GftlBD-Apu8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/CZt-rVn2BJs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/3oOGF8P1BJo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ou-litQ9hWQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JxKlN3Yw290" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2pQSKqOE7Rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 </body>
 
 </html>
